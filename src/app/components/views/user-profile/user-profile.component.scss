@@ -1,0 +1,35 @@
+.profile-container {
+  margin: 0;
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+}
+
+.img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  border: 3px solid cyan;
+}
+
+a {
+  cursor: pointer;
+}
+
+a.active {
+  color: #5ba7be !important;
+  border-bottom: 1px solid #5ba7be !important;
+}
+
+.showActiveTab {
+  .active {
+    border-bottom: 1px solid #5ba7be;
+  }
+  list-style-type: none;
+}
